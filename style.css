@@ -1,0 +1,157 @@
+body{
+    margin: 0px auto;
+    width: 100%;
+    font-family: 'Sacramento', cursive;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 2.5em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul{
+    float: right;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+}
+section{
+    background-color: #04adc3;
+}
+.home{
+    background-image: url('ggggg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    padding:260px;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home img{
+    border-radius: 100%;
+    width: 250px;
+    height: auto;
+}
+.about{
+    background-color:#04adc3 ;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    float: right;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    padding-right: 150px;
+}
+.education{
+    background-color: #04adc3;
+    display: table;
+    height: 100vh;
+    width:100%;
+}
+.hobby, .skill{
+    display: table;
+    height: 100vh;
+    width:100%;
+}
+.education .inner, .hobby .inner{
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.education .inner div, .hobby .inner div, .skill .inner div{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+.about .inner h1, .education .inner h1, .hobby .inner h1, .contact .inner h1{
+    font-size: 40px;
+}
+.about .inner p, .education .inner div p, .hobby .inner div p, .contact .inner p{ 
+    font-size: 25px;
+    line-height: 40px;
+}
+.about .inner p{
+    color:green ;
+}
+.education .inner div h2{
+    font-size: 22px;
+    color: green;
+}
+.eduacation .inner div img, .hobby .inner div img{
+    width: 150px;
+    height: auto;
+}
+.skill{
+   background-color:#04adc3 ;
+    display: table;
+    height: 100vh;
+    width:100%;
+}
+.skill .inner{
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+.skill .inner div ul li{ 
+    list-style-type: none;
+    color: #1d7c03;
+    font-size: 25px;
+}
+.skill .inner h1{
+    font-size: 40px;
+    color: black;
+}
+.contact{
+    background-image: url("https://images.unsplash.com/photo-1598620617148-c9e8ddee6711?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhbmslMjBwYWdlfGVufDB8fDB8fHww&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact .inner{
+    text-align: center;
+    padding-top: 230px;
+    padding-bottom: 250px;
+    padding-left: 300px;
+}
+@media (min-width: 320px) and (max-width: 467px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    .about .inner{
+        padding: 30px;
+    }
+    .about .inner p{
+        font-size: 16px;
+        text-align:justify;
+    }
+    .home .div, .education .inner div, .hobby .inner div, .skills .inner div{
+        width:100%;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .about .inner p, .education .inner div p{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media (min-width:1024px) and (max-width:1439px){
+    
+}
